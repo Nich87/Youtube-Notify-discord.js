@@ -34,7 +34,7 @@ function handleUploads() {
             }//else
         });//then
     });
-}, ytn.config.Interval);
+  }, ytn.config.Interval);
 }//handleUpload
 
 ytn.login(process.env.token);
